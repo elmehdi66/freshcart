@@ -166,3 +166,37 @@ p,a{
     display: none;
   }
 }
+
+
+.owl-stage-outer{
+padding-top: 50px;
+}
+
+.owl-nav{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.owl-nav span {
+  font-size: 25px !important;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.owl-nav {
+  display: flex;
+  gap: 5px;
+  
+}
+.owl-nav .owl-prev,.owl-nav .owl-next {
+  
+  background-color: green !important;
+  color: white !important;
+  padding: 6px !important;
+  border-radius: 15px !important;
+  width: 30px;
+  height: 30px;
+}
+
